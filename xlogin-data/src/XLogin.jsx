@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 function XLogin() {
   // State variables to handle inputs and messages
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState();
+  const [password, setPassword] = useState();
   const [message, setMessage] = useState("");
 
   // Handler function for form submission
